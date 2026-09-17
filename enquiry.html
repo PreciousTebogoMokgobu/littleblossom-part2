@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enquire about enrollment at LittleBlossom Inclusive Daycare. Contact us to schedule a visit or ask about our inclusive programs.">
+    <meta name="keywords" content="daycare enquiry, daycare enrollment, schedule a visit, inclusive daycare Gauteng">
+    <meta name="author" content="Precious Tebogo Mokgobu">
+    <title>LittleBlossom Inclusive Daycare - Enquiry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="LittleBlossom Inclusive Daycare Logo">
+                <div class="logo-text">
+                    <h1>LittleBlossom</h1>
+                    <p>Inclusive Daycare</p>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="section-banner" style="background-color: #F8A4B8;">
+            <div class="container">
+                <h1>Enquire About Enrollment</h1>
+                <p>Fill out the form below and we will get back to you within 24 hours.</p>
+            </div>
+        </section>
+
+        <section class="section-light">
+            <div class="container">
+                <h2>Enquiry Form</h2>
+                <p>Please complete all fields marked with <strong>*</strong></p>
+                
+                <form action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="fullname">Full Name: *</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address: *</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="childname">Child's Name: *</label>
+                        <input type="text" id="childname" name="childname" placeholder="Enter your child's name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="childage">Child's Age: * (0 - 6 years)</label>
+                        <input type="number" id="childage" name="childage" placeholder="Enter age in years" required min="0" max="6">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="childdob">Child's Date of Birth:</label>
+                        <input type="date" id="childdob" name="childdob">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="enquirytype">Enquiry Type: *</label>
+                        <select id="enquirytype" name="enquirytype" required>
+                            <option value="">-- Please Select --</option>
+                            <option value="enrollment">Enrollment Enquiry</option>
+                            <option value="visit">Schedule a Visit</option>
+                            <option value="fees">Fees Enquiry</option>
+                            <option value="specialneeds">Special Needs Support</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="startdate">Preferred Start Date:</label>
+                        <input type="date" id="startdate" name="startdate">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message: *</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your child, their personality, any special needs, and what you are looking for in a daycare..." required></textarea>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <input type="submit" value="Submit Enquiry" class="btn">
+                        <input type="reset" value="Clear Form" class="btn btn-secondary">
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+
+        <section class="section-dark">
+            <div class="container">
+                <h2>Contact Us Directly</h2>
+                
+                <div class="grid-3-col">
+                    <div class="card">
+                        <h3>Phone</h3>
+                        <p>011 234 5678</p>
+                        <p>082 123 4567 (WhatsApp)</p>
+                    </div>
+                    <div class="card">
+                        <h3>Email</h3>
+                        <p>info@littleblossom.co.za</p>
+                        <p>enquiries@littleblossom.co.za</p>
+                    </div>
+                    <div class="card">
+                        <h3>Office Hours</h3>
+                        <p>Monday - Friday: 07:00 - 18:00</p>
+                        <p>Saturday: 08:00 - 13:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-banner">
+            <div class="container">
+                <h2>Ready to Begin Your Child's Journey?</h2>
+                <p>We can't wait to welcome your family to LittleBlossom!</p>
+                <p>Complete the form above or call us today.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.jpeg" alt="LittleBlossom Logo">
+                        <h3>LittleBlossom</h3>
+                    </div>
+                    <p>Inclusive Daycare</p>
+                    <p>A daycare where every child belongs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Our Services</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>56 Blossom Street, Sandton, Johannesburg</p>
+                    <p>011 234 5678</p>
+                    <p>info@littleblossom.co.za</p>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LittleBlossom Inclusive Daycare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
